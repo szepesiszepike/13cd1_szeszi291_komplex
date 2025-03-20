@@ -1,22 +1,27 @@
-body{
+body {
   color: #293647;
+  font-family: Arial, sans-serif;
 }
 
 .bg-fej {
-
+  background-image: url('oktatas-01.jpg');
   background-position: center;
+  background-size: cover;
   height: 400px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bg-fej h1{
+.bg-fej h1 {
   color: black;
   font-size: 250%;
   text-transform: uppercase;
   text-decoration: underline overline;
   font-weight: bold;
 }
-.bg-fej h3{
+
+.bg-fej h3 {
   color: black;
   text-transform: uppercase;
   text-decoration: underline overline;
@@ -28,7 +33,7 @@ body{
 }
 
 .bg-torzs {
-
+  background-color: #c5c599;
   align-content: center;
 }
 
